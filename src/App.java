@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Fatorial fatorial = new Fatorial();
+
+        double resultado = fatorial.calcular(3);
+
+        System.out.println(resultado);
     }
 }
